@@ -47,17 +47,21 @@ body{
     gap: 15px;
   }
 
+  #navMenu{
+    display: none;
+  }
+
   .header .nav ul {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    display: none;
   }
 
   .menu-toggle{
     background-color: rgba(0, 0, 0, 0); /* Black background with high opacity */
     border-radius: 5px; /* Slightly rounded borders */
     border-style: none;
+    display: block;
   }
 }
 
